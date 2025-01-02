@@ -1,0 +1,28 @@
+\documentclass[french]{report}
+\usepackage[a4paper]{geometry}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{babel}
+
+\pagestyle{myheadings}
+\markright{UO \LaTeX}
+
+\title{\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{ulco}
+		\label{logo ULCO}
+	\end{figure}
+	
+	A la découverte du C/C++}
+	
+\author{PRUVOST Benjamin \thanks{benjamin.pruvost@etu.univ-littoral.fr} \and REPORT Tanguy \thanks{Tanguy.Report@etu.univ-littoral.fr}}
+\date{}
+
+
+\begin{document}
+	
+	\maketitle
+	\tableofcontents
+	\include{Chapitres/intro}
+	\include{Chapitres/chapitre1}
+\end{document}
