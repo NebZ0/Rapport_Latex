@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.22)  2 JAN 2025 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  3 JAN 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -149,7 +149,7 @@ Package babel Info: Importing font and identification data for french
 )
 (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-2.
+0.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -159,23 +159,26 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box51
 )
-(./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux))
+(./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux)
+(./Chapitres/chapitre2.aux) (./Chapitres/chapitre3.aux)
+(./Chapitres/chapitre4.aux) (./Chapitres/chapitre5.aux)
+(./Chapitres/chapitre6.aux))
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -233,42 +236,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 22.
-LaTeX Info: Redefining \up on input line 22.
+LaTeX Info: Redefining \degres on input line 20.
+LaTeX Info: Redefining \up on input line 20.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 22.
+(french.ldf)                of your document; reported on input line 20.
 
 <ulco.png, id=1, 224.84pt x 225.84375pt>
 File: ulco.png Graphic file (type png)
 <use ulco.png>
-Package pdftex.def Info: ulco.png  used on input line 24.
+Package pdftex.def Info: ulco.png  used on input line 22.
 (pdftex.def)             Requested size: 209.12683pt x 210.0704pt.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-4.
+2.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-24.
+22.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-24.
+22.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 22.
  [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
@@ -283,7 +286,13 @@ texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./ulco.png>] (./rapport.toc)
 
  (./Chapitres/intro.tex
 Chapitre 1.
-) [2
+)
+Overfull \hbox (27.30083pt too wide) in paragraph at lines 3--24
+[]\OT1/lmr/m/n/10 Historique du lan-gage, diff^^Serences entre C et C++, ins-ta
+l-la-tion de l'en-vi-ron-ne-ment de d^^Seveloppement 
+ []
+
+[2
 
 
 ]
@@ -296,17 +305,70 @@ Chapitre 2.
 
 
 
-] (./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux))
+]
+\openout2 = `Chapitres/chapitre2.aux'.
+
+ (./Chapitres/chapitre2.tex
+Chapitre 3.
+) [4
+
+
+
+
+]
+\openout2 = `Chapitres/chapitre3.aux'.
+
+ (./Chapitres/chapitre3.tex
+Chapitre 4.
+) [5
+
+
+
+
+]
+\openout2 = `Chapitres/chapitre4.aux'.
+
+ (./Chapitres/chapitre4.tex
+Chapitre 5.
+) [6
+
+
+
+
+]
+\openout2 = `Chapitres/chapitre5.aux'.
+
+ (./Chapitres/chapitre5.tex
+Chapitre 6.
+) [7
+
+
+
+
+]
+\openout2 = `Chapitres/chapitre6.aux'.
+
+ (./Chapitres/chapitre6.tex
+Chapitre 7.
+) [8
+
+
+
+
+] (./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux)
+(./Chapitres/chapitre2.aux) (./Chapitres/chapitre3.aux)
+(./Chapitres/chapitre4.aux) (./Chapitres/chapitre5.aux)
+(./Chapitres/chapitre6.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3850 strings out of 474116
- 64875 string characters out of 5747716
+ 3979 strings out of 474115
+ 69099 string characters out of 5747695
  1927190 words of memory out of 5000000
- 26177 multiletter control sequences out of 15000+600000
+ 26272 multiletter control sequences out of 15000+600000
  592711 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,202b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -316,10 +378,10 @@ type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/
 2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/font
 s/type1/public/lm/lmr9.pfb>
-Output written on rapport.pdf (4 pages, 180913 bytes).
+Output written on rapport.pdf (9 pages, 192802 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
