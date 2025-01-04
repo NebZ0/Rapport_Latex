@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  3 JAN 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  4 JAN 2025 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,16 +148,43 @@ Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
 (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count275
+\lst@gtempboxa=\box51
+\lst@token=\toks20
+\lst@length=\count276
+\lst@currlwidth=\dimen161
+\lst@column=\count277
+\lst@pos=\count278
+\lst@lostspace=\dimen162
+\lst@width=\dimen163
+\lst@newlines=\count279
+\lst@lineno=\count280
+\lst@maxwidth=\dimen164
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count281
+\lst@skipnumbers=\count282
+\lst@framebox=\box52
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-0.
+1.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box53
 )
 (./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux)
 (./Chapitres/chapitre2.aux) (./Chapitres/chapitre3.aux)
@@ -165,20 +192,20 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 (./Chapitres/chapitre6.aux))
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -216,17 +243,17 @@ LaTeX Font Info:    ... okay on input line 20.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen161
-\scratchbox=\box52
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen162
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count284
+\scratchdimen=\dimen165
+\scratchbox=\box54
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen166
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks22
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -236,46 +263,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 20.
-LaTeX Info: Redefining \up on input line 20.
+LaTeX Info: Redefining \degres on input line 21.
+LaTeX Info: Redefining \up on input line 21.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 20.
+(french.ldf)                of your document; reported on input line 21.
 
-<ulco.png, id=1, 224.84pt x 225.84375pt>
-File: ulco.png Graphic file (type png)
-<use ulco.png>
-Package pdftex.def Info: ulco.png  used on input line 22.
+\c@lstlisting=\count290
+<Images/ulco.png, id=1, 224.84pt x 225.84375pt>
+File: Images/ulco.png Graphic file (type png)
+<use Images/ulco.png>
+Package pdftex.def Info: Images/ulco.png  used on input line 23.
 (pdftex.def)             Requested size: 209.12683pt x 210.0704pt.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-2.
+3.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-22.
+23.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-22.
+23.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 23.
  [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
-texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./ulco.png>] (./rapport.toc)
+texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./Images/ulco.png>] (./rapport.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `rapport.toc'.
 
@@ -284,23 +319,24 @@ texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./ulco.png>] (./rapport.toc)
 ]
 \openout2 = `Chapitres/intro.aux'.
 
- (./Chapitres/intro.tex
-Chapitre 1.
-)
-Overfull \hbox (27.30083pt too wide) in paragraph at lines 3--24
-[]\OT1/lmr/m/n/10 Historique du lan-gage, diff^^Serences entre C et C++, ins-ta
-l-la-tion de l'en-vi-ron-ne-ment de d^^Seveloppement 
- []
 
+(./Chapitres/intro.tex
+Chapitre 1.
+<Images/bjarne_stroustrup.jpg, id=18, 220.9053pt x 192.2382pt>
+File: Images/bjarne_stroustrup.jpg Graphic file (type jpg)
+<use Images/bjarne_stroustrup.jpg>
+Package pdftex.def Info: Images/bjarne_stroustrup.jpg  used on input line 6.
+(pdftex.def)             Requested size: 220.90475pt x 192.23772pt.
 [2
 
 
-]
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc} <./Images/bjarne_st
+roustrup.jpg>]) [3]
 \openout2 = `Chapitres/chapitre1.aux'.
 
  (./Chapitres/chapitre1.tex
 Chapitre 2.
-) [3
+) [4
 
 
 
@@ -310,7 +346,7 @@ Chapitre 2.
 
  (./Chapitres/chapitre2.tex
 Chapitre 3.
-) [4
+) [5
 
 
 
@@ -320,7 +356,7 @@ Chapitre 3.
 
  (./Chapitres/chapitre3.tex
 Chapitre 4.
-) [5
+) [6
 
 
 
@@ -330,7 +366,7 @@ Chapitre 4.
 
  (./Chapitres/chapitre4.tex
 Chapitre 5.
-) [6
+) [7
 
 
 
@@ -340,7 +376,7 @@ Chapitre 5.
 
  (./Chapitres/chapitre5.tex
 Chapitre 6.
-) [7
+) [8
 
 
 
@@ -350,7 +386,7 @@ Chapitre 6.
 
  (./Chapitres/chapitre6.tex
 Chapitre 7.
-) [8
+) [9
 
 
 
@@ -365,23 +401,24 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3979 strings out of 474115
- 69099 string characters out of 5747695
- 1927190 words of memory out of 5000000
- 26272 multiletter control sequences out of 15000+600000
- 592711 words of font info for 54 fonts, out of 8000000 for 9000
+ 5404 strings out of 474115
+ 89976 string characters out of 5747695
+ 1930190 words of memory out of 5000000
+ 27675 multiletter control sequences out of 15000+600000
+ 613414 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,202b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,898b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/
-type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr
-12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/
-2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/font
-s/type1/public/lm/lmr9.pfb>
-Output written on rapport.pdf (9 pages, 192802 bytes).
+type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/l
+mr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/f
+onts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm
+/lmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on rapport.pdf (10 pages, 325264 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
