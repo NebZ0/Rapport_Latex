@@ -17,15 +17,12 @@ iii. une liste des tableaux;
 12. comporter au moins :
 (a) une liste numérotée;
 (b) une liste de description ;
-(c) une note de bas de page ;
-(d) un hyperlien vers l’extérieur ;
-(e) une image (flottante) ;
+
 (f) un tableau (flottant) ;
-(g) une référence croisée ;
 (h) — une macro personnelle sans argument ;
     — une macro personnelle à argument ;
     (réellement utilisées, noté en fonction de l'utilité de la macro) ;
-(i) une formule de type mathématique ;
+
 (j) une unité correctement typographiée ;
 (k) une courbe réalisée avec le package pgfplots;
 (l) une bibliographie ;
