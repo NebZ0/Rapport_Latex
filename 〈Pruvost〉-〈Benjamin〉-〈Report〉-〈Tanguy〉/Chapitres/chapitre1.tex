@@ -1,15 +1,15 @@
 \chapter{Structure d'un programme}
 \lstset{language = C++,basicstyle=\ttfamily,keywordstyle=\color{purple}}
-Il est important de respecter la structure du code en C++ afin d’assurer sa lisibilité, sa maintenabilité et son efficacité. Une organisation claire et cohérente du programme facilite son développement et sa compréhension, tant pour le programmeur que pour les membres de l’équipe.
+Il est important de respecter la structure du code en \cpp afin d’assurer sa lisibilité, sa maintenabilité et son efficacité. Une organisation claire et cohérente du programme facilite son développement et sa compréhension, tant pour le programmeur que pour les membres de l’équipe.
 
 \section{Les Directives de Préprocesseur} 
-Un programme en C++ commence généralement par des directives de préprocesseur, qui sont des instructions pré-traitées avant la phase de compilation. Elles permettent d’inclure des bibliothèques et de définir des constantes ou des macros. Ces directives commencent par \emph{le symbole \lstinline|#|}.Voici ci-dessous un exemple:
+Un programme en \cpp commence généralement par des directives de préprocesseur, qui sont des instructions pré-traitées avant la phase de compilation. Elles permettent d’inclure des bibliothèques et de définir des constantes ou des macros. Ces directives commencent par \emph{le symbole \lstinline|#|}.Voici ci-dessous un exemple:
 
 
 \lstinputlisting[linerange={1,2}]{Code/base.cpp}
 
 \subsection{Les implémentations de bibliothèques}
-Les bibliothèques en C++ jouent un rôle essentiel dans le développement d’applications, car elles offrent des fonctions et des classes pré-définies qui simplifient grandement la gestion des tâches courantes. Une des bibliothèques les plus utilisées est iostream, qui permet la gestion des entrées et sorties, notamment pour la lecture et l'écriture sur la console. L'implémentation de iostream repose sur des flux d'entrée/sortie, tels que std::cin pour l'entrée et std::cout pour la sortie mais pas seulement\footnote{Documentation de iostream:\url{https://cplusplus.com/reference/iostream/}}.
+Les bibliothèques en \cpp jouent un rôle essentiel dans le développement d’applications, car elles offrent des fonctions et des classes pré-définies qui simplifient grandement la gestion des tâches courantes. Une des bibliothèques les plus utilisées est iostream, qui permet la gestion des entrées et sorties, notamment pour la lecture et l'écriture sur la console. L'implémentation de iostream repose sur des flux d'entrée/sortie, tels que std::cin pour l'entrée et std::cout pour la sortie mais pas seulement\footnote{Documentation de iostream:\url{https://cplusplus.com/reference/iostream/}}.
 
 \lstset{frame=single,language = C++,basicstyle=\ttfamily,keywordstyle=\color{purple}}
 \lstinputlisting{Code/base.cpp}
@@ -18,7 +18,7 @@ Ce code permet d'afficher "Hello World" dans la console, ce qui est impossible s
 
 Il y a bien évidemment plein d'autre bibliothèques utiles, comme par exemple \lstinline|<cmaths>|,qui fournit un ensemble de fonctions mathématiques standards pour effectuer des calculs numériques.
 
-Par exemple si nous voulons calculer en C++ $\sqrt{\cos(\frac{1}{3})}$, nous avons maintenant accès aux fonctions \lstinline|sqrt()| et \lstinline|cos()|:
+Par exemple si nous voulons calculer en \cpp $\sqrt{\cos(\frac{1}{3})}$, nous avons maintenant accès aux fonctions \lstinline|sqrt()| et \lstinline|cos()|:
 
 \lstinputlisting{Code/math.cpp}
 
@@ -36,12 +36,12 @@ On remarquera maintenant qu'il n'est plus nécessaire d'écrire \lstinline|std::
 
 \subsection{Les macros}
 
-Les macros en C++ sont définies avec \lstinline|#define| et permettent de remplacer des parties du code avant la compilation. Elles sont souvent utilisées pour définir des constantes ou des expressions réutilisables.Exemple:
+Les macros en \cpp sont définies avec \lstinline|#define| et permettent de remplacer des parties du code avant la compilation. Elles sont souvent utilisées pour définir des constantes ou des expressions réutilisables.Exemple:
 \lstinline|#define PI 3.14159|
 
 \section{La fonction main()} 
 
-La fonction main est le point d’entrée de tout programme en C++. C’est là que l’exécution commence.Il doit être placer à la fin du code, tout code n'étant pas contenu dedans n'est pas exécuté sauf exception\footnote{Les constructeurs de classes par exemple}. Elle retourne généralement un entier pour indiquer l’état de fin du programme :
+La fonction main est le point d’entrée de tout programme en \cpp. C’est là que l’exécution commence.Il doit être placer à la fin du code, tout code n'étant pas contenu dedans n'est pas exécuté sauf exception\footnote{Les constructeurs de classes par exemple}. Elle retourne généralement un entier pour indiquer l’état de fin du programme :
 
 \begin{lstlisting}
 int main(){
