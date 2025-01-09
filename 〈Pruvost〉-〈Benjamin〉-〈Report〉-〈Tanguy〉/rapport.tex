@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[a4paper]{geometry}
 \usepackage{lmodern}
+\usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{mathtools}
@@ -14,13 +15,9 @@
 \usepackage[hidelinks]{hyperref}
 
 
-\title{\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.5\linewidth]{Images/ulco}
-		\label{logo ULCO}
-	\end{figure}
-	
-	À la découverte du C++}
+\title{\includegraphics[width=0.5\linewidth]{Images/ulco}
+		
+À la découverte du C++}
 	
 \author{PRUVOST Benjamin \thanks{benjamin.pruvost@etu.univ-littoral.fr} \and REPORT Tanguy \thanks{Tanguy.Report@etu.univ-littoral.fr}}
 \date{}
@@ -32,6 +29,8 @@
 	\fancyhead[CE,CO]{UO \LaTeX}
 	\maketitle
 	\tableofcontents
+	\listoffigures
+	\listoftables
 	\include{Chapitres/intro}
 	\include{Chapitres/chapitre1}
 	\include{Chapitres/chapitre2}
