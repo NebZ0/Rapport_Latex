@@ -1,7 +1,52 @@
 \chapter{Pointeurs}
+Une des notions les plus importantes de la programmation en C++ est très probablement celle de \emph{pointeurs}.
 
 \section{Qu'est ce qu'un pointeur}
+Un pointeur est une variable qui contient l’\emph{adresse mémoire} d’une autre variable. Au lieu de stocker directement une valeur, il pointe vers l’emplacement où cette valeur est située en mémoire. Les pointeurs sont utilisés pour manipuler directement la mémoire, partager des données entre différentes parties du programme, ou gérer des structures complexes comme les tableaux et les objets dynamiques.
+
+\subsection{Fonctionnement de la mémoire}
+Pour comprendre comment fonctionne un pointeur en C++ il est premièrement nécessaire de comprendre comment fonctionne la mémoire lorsque l'on exécute un programme. Intéressons nous donc au programme suivant.
+
+\lstinputlisting{Code/exemple_pointeur.cpp}
+
+Maintenant essayons de prévoir comment le programme va se dérouler
+
+\begin{itemize}
+	\item La valeur de 'a' est initialisée à \lstinline|false|
+	\item On passe 'a' dans la fonction \lstinline|change_valeur()|
+	\item La valeur de 'a' passe à \lstinline|true|
+	\item On retrouve \lstinline|true| en sortie du programme.
+\end{itemize} 
+
+\emph{Sauf que non !} La valeur de 'a' est restée la même et cela grâce/à cause de la façon dont la mémoire traite les relations entre les variables et les paramètres de fonctions. En effet, lorsque l'on utilise une variable comme paramètre, le programme n'utilise pas le même emplacement dans la mémoire pour ces deux valeurs, en somme il crée une \emph{copie} de notre variable et c'est cette copie que l'on modifie dans notre fonction. Une fois la fonction exécutée, la copie est détruite et notre variable de base se trouve inchangée ! La question reste de savoir comment remédier à cela.
+
+\subsection{Syntaxe}
+Voyons comment les pointeurs peuvent nous aider à régler ce problème. Premièrement comment créer un pointeur ? Un pointeur est une variable comme une autre, la seule différence étant qu'elle content l'adresse d'une autre variable au lieu d'une valeur comme \lstinline|1|, \lstinline|true| ou \lstinline|'a'| il faut donc que l'on récupère l'adresse de notre variable, pour se faire on utilise le caractère \lstinline|&|. Ensuite, pour initialiser notre pointeur, nous devons préciser vers quelle type de valeur celui-ci va \emph{pointer} puis ajouter un caractère \lstinline|*| à la suite du type pour préciser qu'il s'agit bien d'un pointeur.
+
+\lstinputlisting{Code/pointeur.cpp}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Nom & Adresse & Valeur \\ \hline
+		a   & 0x0001  & false  \\ \hline
+		p   & 0x0002  & 0x0001 \\ \hline
+		*p  & 0x0001  & false  \\ \hline
+	\end{tabular}
+	\caption{Différence entre pointeur et variable}
+	\label{pointeur_variable}
+\end{table}
+
+Nous avons donc le pointeur \lstinline|p| qui pointe vers l'adresse mémoire de \lstinline|a|. Voyons comment mettre cela à profit pour régler notre problème.
 
 \section{Utilisation}
+Il est nécessaire d'apporter des modifications à notre fonction \lstinline|change_valeur()|, car nous voulons maintenant accueillir en paramètre non pas 'a' mais \emph{le pointeur vers 'a'}.
 
-\section{Tableaux dynamiques}
+\lstinputlisting[linerange={3}]{Code/pointeur_utilisation.cpp}
+
+Comme on peut le voir ça n'est pas différent des autres paramètres, on ajoute simplement une \lstinline|*| pour signifier que l'on attend un pointeur. Maintenant, nous devons changer la valeur de 'a', sauf que notre pointeur 'p' ne contient pas la valeur mais l'adresse de 'a', il nous faut donc accéder à cette dernière grâce au caractère \lstinline|*|.
+
+\lstinputlisting{Code/pointeur_utilisation.cpp}
+
+Maintenant, c'est la valeur de 'a' qui sera changé. Il est aussi intéressant de noter qu'il est possible de faire des \emph{pointeurs de pointeurs} en utilisant deux \lstinline|**| et non pas une, ce pointeur va donc pointer sur l'adresse du pointeur pointant sur notre variable (on s'y perd !).
