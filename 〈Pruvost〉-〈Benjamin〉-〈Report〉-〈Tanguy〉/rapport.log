@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.22)  9 JAN 2025 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  9 JAN 2025 02:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,28 +285,91 @@ Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
 (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count291
+\l__siunitx_number_exponent_fixed_int=\count292
+\l__siunitx_number_min_decimal_int=\count293
+\l__siunitx_number_min_integer_int=\count294
+\l__siunitx_number_round_precision_int=\count295
+\l__siunitx_number_lower_threshold_int=\count296
+\l__siunitx_number_upper_threshold_int=\count297
+\l__siunitx_number_group_first_int=\count298
+\l__siunitx_number_group_size_int=\count299
+\l__siunitx_number_group_minimum_int=\count300
+\l__siunitx_angle_tmp_dim=\dimen180
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
+\l__siunitx_compound_count_int=\count301
+
+(c:/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count302
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen181
+\l__siunitx_table_column_width_dim=\dimen182
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_uncert_box=\box59
+\l__siunitx_table_before_box=\box60
+\l__siunitx_table_after_box=\box61
+\l__siunitx_table_before_dim=\dimen183
+\l__siunitx_table_carry_dim=\dimen184
+\l__siunitx_unit_tmp_int=\count303
+\l__siunitx_unit_position_int=\count304
+\l__siunitx_unit_total_int=\count305
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen185
+\ar@mcellbox=\box62
+\extrarowheight=\dimen186
+\NC@list=\toks27
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box63
+))
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count291
-\lst@gtempboxa=\box54
-\lst@token=\toks27
-\lst@length=\count292
-\lst@currlwidth=\dimen180
-\lst@column=\count293
-\lst@pos=\count294
-\lst@lostspace=\dimen181
-\lst@width=\dimen182
-\lst@newlines=\count295
-\lst@lineno=\count296
-\lst@maxwidth=\dimen183
+\lst@mode=\count306
+\lst@gtempboxa=\box64
+\lst@token=\toks28
+\lst@length=\count307
+\lst@currlwidth=\dimen187
+\lst@column=\count308
+\lst@pos=\count309
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count310
+\lst@lineno=\count311
+\lst@maxwidth=\dimen190
 
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count297
-\lst@skipnumbers=\count298
-\lst@framebox=\box55
+\c@lstnumber=\count312
+\lst@skipnumbers=\count313
+\lst@framebox=\box65
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
@@ -324,21 +387,7 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
 (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
@@ -357,15 +406,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count299
+\c@section@level=\count314
 )
-(c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count300
-)
-\@linkdim=\dimen184
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\@linkdim=\dimen191
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
@@ -375,7 +420,7 @@ Now handling font encoding PD1 ...
 (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count317
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -389,14 +434,14 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count318
 
 (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen185
+\XeTeXLinkMargin=\dimen192
 
 (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -405,9 +450,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen186
-\Fld@charsize=\dimen187
+\Fld@menulength=\count319
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -420,9 +465,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -434,8 +479,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count323
+\c@bookmark@seq@number=\count324
 
 (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -446,9 +491,9 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip59
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 27
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -456,8 +501,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box66
 )
 (./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux)
 (./Chapitres/chapitre2.aux) (./Chapitres/chapitre3.aux)
@@ -465,24 +510,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 (./Chapitres/chapitre6.aux))
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -520,17 +565,17 @@ LaTeX Font Info:    ... okay on input line 27.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen188
-\scratchbox=\box57
-\nofMPsegments=\count313
-\nofMParguments=\count314
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen189
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count326
+\scratchdimen=\dimen195
+\scratchbox=\box67
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen196
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks30
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -540,57 +585,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 27.
-LaTeX Info: Redefining \up on input line 27.
-\c@lstlisting=\count318
-Package hyperref Info: Link coloring OFF on input line 27.
+LaTeX Info: Redefining \degres on input line 28.
+LaTeX Info: Redefining \up on input line 28.
 
-(./rapport.out) (./rapport.out)
+(c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionar
+y-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 28.
+\c@lstlisting=\count332
+Package hyperref Info: Link coloring OFF on input line 28.
+ (./rapport.out) (./rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
 
-<Images/ulco.png, id=80, 224.84pt x 225.84375pt>
+<Images/ulco.png, id=100, 224.84pt x 225.84375pt>
 File: Images/ulco.png Graphic file (type png)
 <use Images/ulco.png>
-Package pdftex.def Info: Images/ulco.png  used on input line 30.
+Package pdftex.def Info: Images/ulco.png  used on input line 31.
 (pdftex.def)             Requested size: 209.12683pt x 210.0704pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-0.
+1.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-0.
+1.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-30.
+31.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-30.
+31.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -614,7 +666,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 	\include{Chapitres/intro}
+l.32 	\include{Chapitres/intro}
                                 [1
 
 ]
@@ -628,7 +680,7 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 Chapitre 1.
-<Images/bjarne_stroustrup.jpg, id=117, 220.9053pt x 192.2382pt>
+<Images/bjarne_stroustrup.jpg, id=142, 220.9053pt x 192.2382pt>
 File: Images/bjarne_stroustrup.jpg Graphic file (type jpg)
 <use Images/bjarne_stroustrup.jpg>
 Package pdftex.def Info: Images/bjarne_stroustrup.jpg  used on input line 11.
@@ -682,17 +734,20 @@ nput line 9.
 
 (./Chapitres/chapitre2.tex
 Chapitre 3.
-) [9
+[9
 
 
 
 
-]
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+(./Code/variables.cpp) (./Code/variables.cpp) (./Code/variables.cpp)
+(./Code/locale.cpp) (./Code/globale.cpp [10]) (./Code/operateurs.cpp [11]))
+[12]
 \openout2 = `Chapitres/chapitre3.aux'.
 
  (./Chapitres/chapitre3.tex
 Chapitre 4.
-) [10
+) [13
 
 
 
@@ -702,7 +757,7 @@ Chapitre 4.
 
  (./Chapitres/chapitre4.tex
 Chapitre 5.
-) [11
+) [14
 
 
 
@@ -712,7 +767,7 @@ Chapitre 5.
 
  (./Chapitres/chapitre5.tex
 Chapitre 6.
-) [12
+) [15
 
 
 
@@ -722,7 +777,7 @@ Chapitre 6.
 
  (./Chapitres/chapitre6.tex
 Chapitre 7.
-) [13
+) [16
 
 
 
@@ -736,33 +791,34 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: AA550568245298CC20B07A0EB1F3EBAD;2944.
+(rerunfilecheck)             Checksum: 365744B21EBF36C304CBA59D98B83123;3718.
  ) 
 Here is how much of TeX's memory you used:
- 15699 strings out of 474116
- 241648 string characters out of 5747716
+ 19601 strings out of 474115
+ 361341 string characters out of 5747695
  1969190 words of memory out of 5000000
- 37620 multiletter control sequences out of 15000+600000
+ 41415 multiletter control sequences out of 15000+600000
  633459 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1090b,1953s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,80p,1090b,2409s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/
 type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/l
-mex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texli
-ve/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/
-fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/
-lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2024/texmf-dist/
-fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texm
-f-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/
-public/lm/lmtti10.pfb>
-Output written on rapport.pdf (14 pages, 476735 bytes).
+mex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
+/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/te
+xlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
+/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:
+/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texm
+f-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1
+/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtti10.
+pfb>
+Output written on rapport.pdf (17 pages, 499585 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 140 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 473 compressed objects within 5 object streams
+ 218 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

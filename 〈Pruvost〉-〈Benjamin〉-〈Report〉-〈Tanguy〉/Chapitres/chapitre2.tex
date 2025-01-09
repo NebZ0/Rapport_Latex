@@ -1,4 +1,66 @@
 \chapter{Types de données et variables}
+\lstset{language = C++,basicstyle=\ttfamily,keywordstyle=\color{purple}}
 
-types primitifs (int, float, char, bool) <- tableau avec nom, encodage et range des valeurs.
-opérateurs simples
+\section{Les Types Primitifs}
+Les \emph{types de données} constituent une base essentielle pour la programmation, permettant de manipuler différentes formes d'informations. Ces types se divisent principalement en types dit \emph{primitifs}, qui gèrent les données simples, et en types complexes (comme les tableaux, les structures et les pointeurs) que nous verrons plus tard et qui offrent une plus grande flexibilité pour représenter des données structurées. Pour l'instant, concentrons nous sur les quatre types primitifs de base:
+
+\begin{itemize}
+	\item \lstinline|int|, ou \emph{'integer'} (\emph{entier} en français). Qui permet de stocker des nombres entiers, donc sans virgule.
+	\item \lstinline|float| ou \lstinline|double|, un nombre à virgule \emph{flottante}.
+	\item \lstinline|char|, un caractère unique qui peut être une lettre, un nombre ou un caractère spécial.
+	\item \lstinline|bool|, soit \emph{boolean} qui ne peut contenir que deux valeurs: \emph{vrai} (\emph{true}) ou faux (\emph{false}).
+\end{itemize}
+
+Ces types sont encodés sur un \emph{nombre de bit} différent, et ne peuvent donc pas contenir des valeurs de même taille, à titre d'information l'encodage ainsi que la portée maximale de chacun de ces types est donné dans le tableau ci-dessous:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|c|c|}
+		\hline
+		\multicolumn{1}{|c|}{Type} & Encodage & Portée                                 \\ \hline
+		\lstinline|int|    & 32 bits                       & \num{-2147483648} à \num{2147483648} \\ \hline
+		\lstinline|float|  & 32 bits                       & \num{-3.4e38} à \num{3.4e38}         \\ \hline
+		\lstinline|double| & 8 bits                        & \num{-1.7e300} à \num{1.7e300}       \\ \hline
+		\lstinline|char|   & 8 bits                        & \num{0} à \num{255}                  \\ \hline
+		\lstinline|bool|   & 1 bit                         & 0 (faux) ou 1 (vrai)                           \\ \hline
+	\end{tabular}
+	\caption{Encodage et portée des types primitifs}
+	\label{types_primitifs}
+\end{table}
+
+\section{Les Variables}
+Les variables sont des conteneurs permettant de stocker et manipuler des données en mémoire. Chaque variable est définie par un type, qui détermine la nature des données qu’elle peut contenir, et un nom, utilisé pour y accéder. Les variables peuvent être locales, globales ou statiques. Il est aisé de définir une variable, il suffit simplement de spécifier son \emph{type} puis son \emph{nom} l'un à la suite de l'autre.
+
+\lstinputlisting[linerange={1-4}]{Code/variables.cpp}
+
+Cette étape s'appelle la \emph{déclaration} de la variable, elle consiste à faire comprendre à notre ordinateur que nous souhaitons réserver une place ne mémoire pour une donnée d'un certain type et nous lui attribuons un nom afin de pouvoir l'utiliser dans les lignes suivantes. Ainsi, après la déclaration nous pouvons \emph{initialiser} notre variable, soit lui donner une valeur, comme suit:
+
+\lstinputlisting[linerange={7-10}]{Code/variables.cpp}
+
+Notez qu'il est tout à fait possible (et recommandé) de combiner le processus de déclaration et d'initialisation.
+
+\lstinputlisting[linerange={13-16}]{Code/variables.cpp}
+
+L'endroit du code où une variable est définie importe tout autant que son type ou son nom, voire plus, il existe deux cas distincts.
+
+\paragraph{Local}
+Une variable déclarée \emph{localement} est déclarée dans une fonction ou tout autre bloc de code inclus dans un autre (une fonction par exemple), ainsi, cette variable ne sera accessible que dans le bloc où elle à été déclarée et ses enfants. \emph{Exemple:}
+
+\lstinputlisting{Code/locale.cpp}()
+
+\paragraph{Global}
+Une variable déclarée \emph{globalement} est déclarée directement dans le programme, en dehors de tout bloc de code. Ainsi, elle est accessible partout dans le code. \emph{Exemple:}
+
+\lstinputlisting{Code/globale.cpp}
+
+
+\subsection{Préfixes particuliers}
+Les préfixes comme \emph{long}, \emph{short}, \emph{signed}, et \emph{unsigned} permettent de modifier les types de données de base pour ajuster leur taille ou leur plage de valeurs. Par exemple, short et long réduisent ou augmentent respectivement la taille des entiers (int), tandis que unsigned supprime les valeurs négatives pour doubler la plage des nombres positifs. Le mot-clé \emph{const} est utilisé pour déclarer des variables dont la valeur est immuable, garantissant qu’elle ne pourra pas être modifiée après initialisation. Ces préfixes offrent une flexibilité accrue dans la gestion de la mémoire et l’adaptation aux besoins spécifiques du programme.
+
+\section{Opérateurs simples}
+Les opérateurs arithmétiques en C++ incluent des symboles comme `+`, `-`, `*`, `/` et `\%`, utilisés pour effectuer des opérations mathématiques de base. L'opérateur `+` sert à l'addition, `-` à la soustraction, `*` à la multiplication, `/` à la division et `\%` à obtenir le reste d'une division entière. C++ propose aussi des opérateurs d'assignation comme `=`, qui permet d'affecter une valeur à une variable, et des opérateurs d'incrémentation (`++`) et de décrémentation (`--`) qui augmentent ou diminuent la valeur d'une variable de 1. Ces opérateurs sont essentiels pour les calculs et les manipulations de données dans les programmes. \emph{Exemples:}
+
+\lstinputlisting{Code/operateurs.cpp}
+
+\section{Conversion entre types}
+La conversion entre types permet de changer la représentation d'une variable d’un type à un autre. Par exemple, si vous voulez convertir un \lstinline|char| en \lstinline|int|, vous pouvez simplement faire une conversion explicite comme \lstinline|(int)(variable)| où variable est un caractère. Cette conversion transforme le caractère en son code ASCII correspondant, comme \lstinline|'A'| qui devient \lstinline|65|. À l'inverse, pour convertir un \lstinline|int| en \lstinline|char|, on utilise \lstinline|(char)(variable)| où variable est un entier. Cela prend l'entier et le convertit en caractère correspondant à son code ASCII. Il faut cependant être vigilant avec ces conversions, car si la valeur est hors des limites du type cible, cela peut entraîner des résultats inattendus ou une perte de données.
