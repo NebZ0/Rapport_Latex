@@ -8,6 +8,7 @@
 \usepackage{mathtools}
 \usepackage{amssymb}
 \usepackage{babel}
+\usepackage{fancyhdr}
 \usepackage[locale=FR]{siunitx}
 \usepackage{listings}
 \usepackage[hidelinks]{hyperref}
@@ -26,6 +27,9 @@
 
 
 \begin{document}
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[CE,CO]{UO \LaTeX}
 	\maketitle
 	\tableofcontents
 	\include{Chapitres/intro}

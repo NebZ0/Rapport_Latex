@@ -18,9 +18,9 @@
 \contentsline {section}{\numberline {3.2}Les Variables}{9}{section.3.2}%
 \contentsline {paragraph}{Local}{10}{section*.2}%
 \contentsline {paragraph}{Global}{10}{section*.3}%
-\contentsline {subsection}{\numberline {3.2.1}Préfixes particuliers}{11}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Opérateurs simples}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Conversion entre types}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Préfixes particuliers}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Opérateurs simples}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conversion entre types}{12}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Instructions de contrôle}{13}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Fonctions}{14}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Pointeurs}{15}{chapter.6}%
