@@ -1,5 +1,4 @@
 \chapter{Types de données et variables}
-\lstset{language = C++,basicstyle=\ttfamily,keywordstyle=\color{purple}}
 
 \section{Les Types Primitifs}
 Les \emph{types de données} constituent une base essentielle pour la programmation, permettant de manipuler différentes formes d'informations. Ces types se divisent principalement en types dit \emph{primitifs}, qui gèrent les données simples, et en types complexes (comme les tableaux, les structures et les pointeurs) que nous verrons plus tard et qui offrent une plus grande flexibilité pour représenter des données structurées. Pour l'instant, concentrons nous sur les quatre types primitifs de base:
@@ -44,12 +43,16 @@ Notez qu'il est tout à fait possible (et recommandé) de combiner le processus 
 L'endroit du code où une variable est définie importe tout autant que son type ou son nom, voire plus, il existe deux cas distincts.
 
 \paragraph{Local}
-Une variable déclarée \emph{localement} est déclarée dans une fonction ou tout autre bloc de code inclus dans un autre (une fonction par exemple), ainsi, cette variable ne sera accessible que dans le bloc où elle à été déclarée et ses enfants. \emph{Exemple:}
+Une variable déclarée \emph{localement} est déclarée dans une fonction ou tout autre bloc de code inclus dans un autre (une fonction par exemple), ainsi, cette variable ne sera accessible que dans le bloc où elle à été déclarée et ses enfants.
+
+\ex{Variable déclarée localement}
 
 \lstinputlisting{Code/locale.cpp}()
 
 \paragraph{Global}
-Une variable déclarée \emph{globalement} est déclarée directement dans le programme, en dehors de tout bloc de code. Ainsi, elle est accessible partout dans le code. \emph{Exemple:}
+Une variable déclarée \emph{globalement} est déclarée directement dans le programme, en dehors de tout bloc de code. Ainsi, elle est accessible partout dans le code.
+
+\ex{Variable déclarée globalement}
 
 \lstinputlisting{Code/globale.cpp}
 
@@ -58,7 +61,9 @@ Une variable déclarée \emph{globalement} est déclarée directement dans le pr
 Les préfixes comme \emph{long}, \emph{short}, \emph{signed}, et \emph{unsigned} permettent de modifier les types de données de base pour ajuster leur taille ou leur plage de valeurs. Par exemple, short et long réduisent ou augmentent respectivement la taille des entiers (int), tandis que unsigned supprime les valeurs négatives pour doubler la plage des nombres positifs. Le mot-clé \emph{const} est utilisé pour déclarer des variables dont la valeur est immuable, garantissant qu’elle ne pourra pas être modifiée après initialisation. Ces préfixes offrent une flexibilité accrue dans la gestion de la mémoire et l’adaptation aux besoins spécifiques du programme.
 
 \section{Opérateurs simples}
-Les opérateurs arithmétiques en C++ incluent des symboles comme `+`, `-`, `*`, `/` et `\%`, utilisés pour effectuer des opérations mathématiques de base. L'opérateur `+` sert à l'addition, `-` à la soustraction, `*` à la multiplication, `/` à la division et `\%` à obtenir le reste d'une division entière. C++ propose aussi des opérateurs d'assignation comme `=`, qui permet d'affecter une valeur à une variable, et des opérateurs d'incrémentation (`++`) et de décrémentation (`--`) qui augmentent ou diminuent la valeur d'une variable de 1. Ces opérateurs sont essentiels pour les calculs et les manipulations de données dans les programmes. \emph{Exemples:}
+Les opérateurs arithmétiques en C++ incluent des symboles comme `+`, `-`, `*`, `/` et `\%`, utilisés pour effectuer des opérations mathématiques de base. L'opérateur `+` sert à l'addition, `-` à la soustraction, `*` à la multiplication, `/` à la division et `\%` à obtenir le reste d'une division entière. C++ propose aussi des opérateurs d'assignation comme `=`, qui permet d'affecter une valeur à une variable, et des opérateurs d'incrémentation (`++`) et de décrémentation (`--`) qui augmentent ou diminuent la valeur d'une variable de 1. Ces opérateurs sont essentiels pour les calculs et les manipulations de données dans les programmes.
+
+\ex{Addition, incrémentation, multiplication}
 
 \lstinputlisting{Code/operateurs.cpp}
 

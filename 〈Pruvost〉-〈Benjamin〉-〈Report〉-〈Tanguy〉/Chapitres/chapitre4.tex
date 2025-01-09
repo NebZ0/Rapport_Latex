@@ -1,3 +1,33 @@
 \chapter{Fonctions}
-\label{chapFonctions}
-déclaration, passage de paramètres, retour de valeurs, (surcharge des fonctions <- optionnel)
+Jusque ici nous avons employé le terme de \emph{fonction} sans réellement l'expliquer. Une fonction est un bloc de code réutilisable qui exécute une tâche spécifique. Elle est définie par un nom, un type de retour (indiquant ce qu’elle renvoie), et éventuellement des paramètres pour transmettre des données. Les fonctions permettent d’organiser et de structurer le code en le divisant en morceaux plus simples et modulaires, facilitant la compréhension, la maintenance et la réutilisation dans un programme.
+
+\section{Déclaration}
+La déclaration d'une fonction est très similaire à celle d'une variables à quelques points près: premièrement, il est nécessaire d'ajouter une paire de parenthèses après le nom de cette dernière afin de faire comprendre à notre programme que nous souhaitons déclarer une fonction.
+
+\lstinputlisting[linerange={1-5}]{Code/fonctions.cpp}
+
+Tout comme les variables il y a une différence entre la \emph{déclaration} et l'\emph{initialisation}, pour initialiser notre fonction il suffit d'ajouter une paire de crochets qui vont encadrer le \emph{corps} de notre fonction. Enfin, on ajoute le mot clé \lstinline|return| qui devra renvoyer une valeur\footnote{Dans le cas d'une déclaration avec \lstinline|void| la fonction ne renvois rien, donc un \lstinline|return| n'est pas nécessaire.} ou une variable du type définit avant le nom de la fonction.
+
+\lstinputlisting[linerange={8-13}]{Code/fonctions.cpp}
+
+Mais comment utilise-ton nos fonctions ? Il suffit simplement de l'\emph{appeler} grâce au nom qu'on lui a donné et d'ajouter une paire de parenthèse à la suite. Alors le corps de la fonction sera exécuté directement. 
+
+\lstinputlisting[linerange={16-18, 26-32}]{Code/fonctions.cpp}
+
+\section{Paramètres}
+Nous savons désormais comment initialiser des fonctions simples, mais une fonction sans argument n'est pas très utiles, on appelle ces arguments \emph{paramètres}, ce sont eux qui donnent toute leur utilité aux fonctions. Afin de déclarer un paramètre pour notre fonction il suffit simplement de donner son type puis le nom que l'on voudra utiliser pour le référencer dans le corps. 
+
+\lstinputlisting[linerange={20-25}]{Code/fonctions.cpp}
+
+Pour déclarer plusieurs paramètres il suffit de les séparer d'une virgule.
+
+\lstinputlisting[linerange={3-5}]{Code/multiple_fonctions.cpp}
+
+Notons qu'il est tout à fait possible de donner une valeur de \emph{base} aux arguments dans le cas où ceux-ci ne sont pas donné lors de l'appel de la fonction.
+
+\lstinputlisting[linerange={7-9}]{Code/multiple_fonctions.cpp}
+
+\section{Notion de "surcharge"}
+Contrairement aux variables, il est possible de déclarer plusieurs fonctions possédant le même nom tant que le type ou les paramètres sont différents. Cela peut s'avérer très utile car le programme saura automatiquement laquelle utiliser en fonction des paramètres donnés.
+
+\lstinputlisting[linerange={11-20}]{Code/multiple_fonctions.cpp}
