@@ -34,3 +34,6 @@
 \contentsline {section}{\numberline {6.2}Utilisation}{22}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Tableaux dynamiques}{22}{section.6.3}%
 \contentsline {chapter}{\numberline {7}Structures}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Définition d'une structure}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Utilisation d'une structure}{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Avantages des Structures}{24}{section.7.3}%

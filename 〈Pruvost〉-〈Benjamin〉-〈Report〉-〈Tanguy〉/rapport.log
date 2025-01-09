@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  9 JAN 2025 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.22)  9 JAN 2025 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -993,7 +993,7 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 31.
 
-<Images/ulco.png, id=139, 224.84pt x 225.84375pt>
+<Images/ulco.png, id=151, 224.84pt x 225.84375pt>
 File: Images/ulco.png Graphic file (type png)
 <use Images/ulco.png>
 Package pdftex.def Info: Images/ulco.png  used on input line 33.
@@ -1084,7 +1084,7 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 Chapitre 1.
-<Images/bjarne_stroustrup.jpg, id=212, 220.9053pt x 192.2382pt>
+<Images/bjarne_stroustrup.jpg, id=227, 220.9053pt x 192.2382pt>
 File: Images/bjarne_stroustrup.jpg Graphic file (type jpg)
 <use Images/bjarne_stroustrup.jpg>
 Package pdftex.def Info: Images/bjarne_stroustrup.jpg  used on input line 11.
@@ -1201,15 +1201,15 @@ Chapitre 6.
 
  (./Chapitres/chapitre6.tex
 Chapitre 7.
-) [23
+(./Code/struct.cpp) (./Code/struct.cpp [23
 
 
 
 
-] (./rapport.aux (./Chapitres/intro.aux) (./Chapitres/chapitre1.aux)
-(./Chapitres/chapitre2.aux) (./Chapitres/chapitre3.aux)
-(./Chapitres/chapitre4.aux) (./Chapitres/chapitre5.aux)
-(./Chapitres/chapitre6.aux))
+])) [24] (./rapport.aux
+(./Chapitres/intro.aux) (./Chapitres/chapitre1.aux) (./Chapitres/chapitre2.aux)
+(./Chapitres/chapitre3.aux) (./Chapitres/chapitre4.aux)
+(./Chapitres/chapitre5.aux) (./Chapitres/chapitre6.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1219,13 +1219,13 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 532157EFF1BD5D43A90D9FEB4A640AF2;5172.
+(rerunfilecheck)             Checksum: 12B7E2589E156D4F67EB8D06816BE556;5743.
  ) 
 Here is how much of TeX's memory you used:
- 40401 strings out of 474115
- 936705 string characters out of 5747695
+ 40452 strings out of 474116
+ 937425 string characters out of 5747716
  1972190 words of memory out of 5000000
- 61693 multiletter control sequences out of 15000+600000
+ 61709 multiletter control sequences out of 15000+600000
  638997 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,107p,1090b,2520s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1243,10 +1243,10 @@ c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/te
 xmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8
 .pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on rapport.pdf (24 pages, 550680 bytes).
+Output written on rapport.pdf (25 pages, 556221 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 693 compressed objects within 7 object streams
- 354 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 820 PDF objects out of 1000 (max. 8388607)
+ 744 compressed objects within 8 object streams
+ 384 named destinations out of 1000 (max. 500000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

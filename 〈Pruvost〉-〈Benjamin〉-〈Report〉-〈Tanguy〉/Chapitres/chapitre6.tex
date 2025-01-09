@@ -1,4 +1,25 @@
 \chapter{Structures}
 
+Les structures en C++ permettent de regrouper plusieurs variables, potentiellement de types différents, au sein d’un même type de données. Elles sont particulièrement utiles pour organiser des informations complexes tout en conservant une logique claire et lisible.
 
-introduction à l'OOP
+\section{Définition d'une structure}
+
+Une structure est définie à l'aide du mot-clé \lstinline|struct|, suivi de son nom et de son contenu, entouré d’accolades \lstinline|{}|. Les membres d'une structure peuvent être des variables ou même d'autres structures.
+
+\lstinputlisting[linerange={1-9}]{Code/struct.cpp}
+
+Ici, la structure \lstinline|Person| regroupe trois attributs : un \lstinline|string| pour le nom, un \lstinline|int| pour l'âge, et un \lstinline|float| pour la taille. Ces variables sont appelées membres de la structure.
+
+\section{Utilisation d'une structure}
+
+Une fois définie, une structure peut être utilisée pour créer des variables (instances). On peut accéder ou modifier les membres d'une instance à l’aide de l’opérateur \lstinline|.| .
+
+\lstinputlisting[linerange={12-26}]{Code/struct.cpp}
+
+\section{Avantages des Structures}
+
+\begin{itemize}
+	\item \textbf{Organisation des données} :Les structures regroupent les données logiquement liées.
+	\item \textbf{Lisibilité} : Elles permettent de donner un sens clair aux regroupements de données.
+	\item \textbf{Réutilisation} : Une structure définie peut être utilisée plusieurs fois dans le programme.
+\end{itemize}
