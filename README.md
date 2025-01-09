@@ -13,17 +13,11 @@ le titre du cours (« uo LATEX ») ;
 ii. une liste des figures ;
 iii. une liste des tableaux;
 
-
-12. comporter au moins :
-(a) une liste numérotée;
-(b) une liste de description ;
-
 (f) un tableau (flottant) ;
 (h) — une macro personnelle sans argument ;
     — une macro personnelle à argument ;
     (réellement utilisées, noté en fonction de l'utilité de la macro) ;
 
-(j) une unité correctement typographiée ;
 (k) une courbe réalisée avec le package pgfplots;
 (l) une bibliographie ;
 

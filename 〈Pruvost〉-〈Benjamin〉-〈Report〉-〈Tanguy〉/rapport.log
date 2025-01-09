@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  9 JAN 2025 02:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  9 JAN 2025 02:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,6 +285,19 @@ Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
 (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
 (c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count291
@@ -344,8 +357,8 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box62
 \extrarowheight=\dimen186
 \NC@list=\toks27
-\extratabsurround=\skip57
-\backup@length=\skip58
+\extratabsurround=\skip66
+\backup@length=\skip67
 \ar@cellbox=\box63
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
@@ -491,9 +504,9 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip68
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 29
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -510,24 +523,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 (./Chapitres/chapitre6.aux))
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -585,8 +598,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 28.
-LaTeX Info: Redefining \up on input line 28.
+LaTeX Info: Redefining \degres on input line 29.
+LaTeX Info: Redefining \up on input line 29.
 
 (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-french.trsl
@@ -594,9 +607,9 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 28.
+or `french'. on input line 29.
 \c@lstlisting=\count332
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
  (./rapport.out) (./rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
@@ -604,45 +617,45 @@ Package hyperref Info: Link coloring OFF on input line 28.
 <Images/ulco.png, id=100, 224.84pt x 225.84375pt>
 File: Images/ulco.png Graphic file (type png)
 <use Images/ulco.png>
-Package pdftex.def Info: Images/ulco.png  used on input line 31.
+Package pdftex.def Info: Images/ulco.png  used on input line 34.
 (pdftex.def)             Requested size: 209.12683pt x 210.0704pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-1.
+4.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-1.
+4.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-31.
+34.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-31.
+34.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+(Font)              <6> on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -666,7 +679,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 	\include{Chapitres/intro}
+l.35 	\include{Chapitres/intro}
                                 [1
 
 ]
@@ -794,13 +807,13 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 365744B21EBF36C304CBA59D98B83123;3718.
  ) 
 Here is how much of TeX's memory you used:
- 19601 strings out of 474115
- 361341 string characters out of 5747695
- 1969190 words of memory out of 5000000
- 41415 multiletter control sequences out of 15000+600000
+ 19783 strings out of 474115
+ 363863 string characters out of 5747695
+ 1971190 words of memory out of 5000000
+ 41593 multiletter control sequences out of 15000+600000
  633459 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,80p,1090b,2409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,80p,1090b,2415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/
 type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/l
@@ -815,7 +828,7 @@ t/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
 f-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1
 /public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtti10.
 pfb>
-Output written on rapport.pdf (17 pages, 499585 bytes).
+Output written on rapport.pdf (17 pages, 500917 bytes).
 PDF statistics:
  536 PDF objects out of 1000 (max. 8388607)
  473 compressed objects within 5 object streams
